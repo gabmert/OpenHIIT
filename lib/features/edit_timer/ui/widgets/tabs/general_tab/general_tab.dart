@@ -339,7 +339,6 @@ class GeneralTab extends StatelessWidget {
                   style: const TextStyle(fontSize: 30),
                   textAlign: TextAlign.end,
                   keyboardType: TextInputType.number,
-                  valueRequired: false, // ???
                   onChanged: (value) {
                     if (value.isEmpty) {
                       provider.setRestarts(0);
